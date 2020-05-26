@@ -11,25 +11,26 @@ import java.awt.Frame;
  *
  * @author user
  */
-public class Ventana extends Frame{
-        public Ventana(String titulo){
+public class Ventana extends Frame {
+
+    public Ventana(String titulo) {
         this.setTitle(titulo);
         this.setVisible(true);
     }
- 
-    public Ventana(String titulo,int ancho,int alto){
+
+    public Ventana(String titulo, int ancho, int alto) {
         this.setTitle(titulo);
         this.setSize(ancho, alto);
-        
-        
+
     }
-        public Ventana(int ancho,int alto){
-        
+
+    public Ventana(int ancho, int alto) {
+
         this.setSize(ancho, alto);
-        
-        
+
     }
-    public Ventana(){
-       
+
+    public Ventana() {
+
     }
 }
